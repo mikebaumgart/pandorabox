@@ -1,16 +1,16 @@
 pandorabox
 ==========
 
-medienserver with surface mapping
+mediaserver with surface mapping
 Client/Server Modell
 
 @Client
-- CLient wird mit WPF entwickelt
-- Timeline Aktionen
+- Client developed in WPF
+- Timeline Actions
 - Assetmanager
 - Livesignal Controller
-- Projector Mapping, Quad Warping, Rektifizierung, Softedge
-- unterstützte Protokolle: DMX, MIDI, OSC, HTTP, JSON
+- Projector Mapping, Quad Warping, Rectification, Softedge
+- Supported protocols: DMX, MIDI, OSC, HTTP, JSON
 
 
 @Server
@@ -22,3 +22,7 @@ Todo
 ====
 
 - OSC Interface as Remote Control
+- Seamless multi-projector display.
+- Dynamic shadow elimination with a multi-projector setup.
+- Surface mapping.
+- Standalone WPF client for editing and composing projects. The client streams the resulting video to the local or others remote devices with sufficient GPU rendering capabilities and a connected projector.
